@@ -44420,11 +44420,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-header .u-image-1 {
+    width: 170px;
+    height: 170px;
     margin-top: 0;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -118px;
+    margin-top: -107px;
     margin-right: 34px;
     margin-bottom: 17px;
   }
