@@ -73,6 +73,111 @@
           <div class="u-form-group u-form-submit">
             <button type="submit" class="u-btn u-button-style">Send</button>
           </div>
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="Contact Ady's Dream Café">
+  <title>Contact</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <link rel="stylesheet" href="Contact.css" media="screen">
+
+  <!-- Nicepage scripts -->
+  <script class="u-script" type="text/javascript" src="jquery.js" defer></script>
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer></script>
+
+  <!-- reCAPTCHA v2 -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Fonts and Meta -->
+  <link rel="icon" href="images/favicon.jpg">
+  <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Open+Sans:300,400,600,700,800">
+  <meta name="theme-color" content="#478ac9">
+  <meta property="og:title" content="Contact">
+
+  <!-- ✅ Logo size fix -->
+  <style>
+    .logo-fix {
+      max-width: 180px;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body class="u-body u-xl-mode" data-lang="en">
+  <header class="u-header">
+    <div class="u-sheet u-valign-middle">
+      <a href="./" class="u-logo" title="Home">
+        <img src="images/AdyDreamCafeLogov.gif" class="u-logo-image logo-fix" alt="Ady Dream Cafe Logo">
+      </a>
+      <nav class="u-menu u-menu-one-level u-offcanvas">
+        <div class="menu-collapse">
+          <a class="u-nav-link u-hamburger-link" href="#"><svg viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg></a>
+        </div>
+        <div class="u-nav-container">
+          <ul class="u-nav u-unstyled">
+            <li class="u-nav-item"><a class="u-nav-link" href="./">Home</a></li>
+            <li class="u-nav-item"><a class="u-nav-link" href="About.html">About</a></li>
+            <li class="u-nav-item"><a class="u-nav-link" href="Contact.html">Contact</a></li>
+            <li class="u-nav-item"><a class="u-nav-link" href="Menu.html">Menu</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="u-section-1">
+    <div class="u-sheet">
+      <h2>Contact Us</h2>
+      <div class="u-form u-form-1">
+        <form action="https://formspree.io/f/xnnpekvw" method="POST" class="u-form-vertical" style="padding: 10px;">
+          <div class="u-form-group u-form-name">
+            <label for="name" class="u-label">Name</label>
+            <input type="text" name="name" id="name" class="u-input" placeholder="Enter your Name" required>
+          </div>
+
+          <div class="u-form-group u-form-email">
+            <label for="email" class="u-label">Email</label>
+            <input type="email" name="email" id="email" class="u-input" placeholder="Enter your Email" required>
+          </div>
+
+          <div class="u-form-group u-form-message">
+            <label for="message" class="u-label">Message</label>
+            <textarea name="message" id="message" class="u-input" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+
+          <!-- ✅ reCAPTCHA v2 Checkbox -->
+          <div class="g-recaptcha" data-sitekey="6LeXfB4rAAAAAC82a_38iKb-9IasyFmF_5vJft7z" style="margin: 15px 0;"></div>
+
+          <div class="u-form-group u-form-submit">
+            <button type="submit" class="u-btn u-button-style">Send</button>
+          </div>
+
+          <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+          <div class="u-form-send-error u-form-send-message">Unable to send your message. Please try again.</div>
+        </form>
+      </div>
+
+      <p class="u-text">
+        <strong>Visit Us:</strong><br>
+        Main St, Celbridge, Co. Kildare, W23 W9W0<br><br>
+        <strong>Email:</strong> <a href="mailto:adydreamcafe@gmail.com">adydreamcafe@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="u-footer u-grey-80">
+    <div class="u-sheet">
+      <p>© Ady's Dream Café - All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
 
           <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
           <div class="u-form-send-error u-form-send-message">Unable to send your message. Please try again.</div>
